@@ -1,0 +1,77 @@
+.center{
+    margin: 0 5%;
+    width: 90%;
+}
+
+.title {
+    width: 15%;
+}
+.value {
+    width: 25%;
+}
+
+#upload-conteiner > table > tr, td {
+    border: 2px solid white;
+    background-color: #e2edff;
+}
+
+table input {
+    padding: 1vh;
+}
+
+table li {
+    list-style-type: upper-roman;
+}
+
+table [input="checkbox"] {
+    text-align: center;
+}
+
+table button {
+    padding: 1vh;
+}
+
+.in-the-center {
+    text-align: center;
+}
+
+.set-padding {
+    padding: 1vh;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#for-textarea {
+    vertical-align: -webkit-baseline-middle;
+}
+
+#for-textarea ol {
+    padding-left: 4vh;
+}
+
+.btn-outline-secondary {
+    color: black;
+    border-color: black;
+}
+
+.genre-xxx {
+    display: none;
+    /* display: table-row; */
+}
+
+.genre-games {
+    display: none;
+    /* display: table-row; */
+}
+
+.genre-movies-series-cartoons {
+    display: none;
+    /* display: table-row; */
+}
+
+.genre-music {
+    display: none;
+    /* display: table-row; */
+}

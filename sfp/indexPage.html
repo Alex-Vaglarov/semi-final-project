@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zamunda</title>
+
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/indexPage.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/header-css.css">
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="stylesheet" href="assets/styles/upload-css.css">
+    <link rel="stylesheet" href="assets/styles/forumAndBlog.css">
+    <link rel="stylesheet" href="assets/styles/login_register.css">
+    <link rel="stylesheet" href="catalogs/catalogs.css">
+    <link rel="stylesheet" href="torrents/torrents.css">
+    <link rel="stylesheet" href="home/home.css">
+    <link rel="stylesheet" href="profile/login-register.css"/>
+
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="userModel.js"></script>
+    <script src="upload/uploadModel.js"></script>
+    <!-- <script src="userController.js"></script> -->
+    <script src="home/homeController.js"></script>
+    <script src="torrents/torrentController.js"></script>
+    <script src="catalogs/catalogController.js"></script>
+    <script src="upload/uploadController.js"></script>
+    <!-- <script src="assets/scripts/upload-script.js"></script> -->
+    <script src="forum/forumController.js"></script>
+    <!-- <script src="subtitles/subsController.js"></script> -->
+    <script src="blog/blogController.js"></script>
+    <script src="profile/loginController.js"></script>
+    <script src="navController.js"></script>
+    <script src="router.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div id="one">
+            <header>
+                <div id="logo"></div>
+                <div id="banner1">
+                    <img src="https://i.pinimg.com/originals/a9/64/db/a964db5475d0bb51c2fe6e7b1d12b3ad.jpg" alt="reklama" />
+                </div>
+                <div id="wellcome">
+                    <h6>Добре дошъл</h6>
+                    <p id="name"></p>
+                    <p id="ups"></p>
+                    <p id="downs"></p>
+                    <button id="exit" type="button" class="btn btn-outline-info">изход</button>
+                    <button id="enter" type="button" class="btn btn-outline-info">вход</button>
+                </div>
+            </header>
+
+            <nav>
+                <ul>
+                    <li id="home"> Начало</li>
+                    <li id="torrents"> Торенти</li>
+                    <li id="catalogs">Каталози</li>
+                    <li id="upload">Качи</li>
+                    <li id="forum">Форум</li>
+                    <li id="subs">Субтитри </li>
+                    <li id="blog">Блог </li>
+                    <li id="profile-nav">Профил</li>
+                </ul>
+            </nav>
+            <div id="mobile-nav">
+                <select id="mobile-menu">
+                    <option><a href="#">Начало</a></option>
+                    <option><a href="#">Торенти</a></option>
+                    <option><a href="#">Каталози</a></option>
+                    <option><a href="#">Качи</a></option>
+                    <option><a href="#">Форум</a></option>
+                    <option><a href="#">Субтитри</a></option>
+                    <option><a href="#">Блог</a></option>
+                    <option><a href="#">Профил</a></option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+        
+    <main>
+
+    </main>
+            
+    <footer>
+        <hr />
+        <div class="button">
+            <button type="button" class="btn btn-light">Често задавани въпроси</button>
+            <button type="button" class="btn btn-light">Условия за ползване</button>
+            <button type="button" class="btn btn-light">Лични данни и авторско съдържание</button>
+            <button type="button" class="btn btn-light">Правила</button>
+            <button type="button" class="btn btn-light">Реклама</button>
+        </div>
+        <p>© 2019 Alex and Sevdjan</p>
+    </footer>
+</body>
+
+</html>

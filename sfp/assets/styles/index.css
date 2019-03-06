@@ -1,0 +1,205 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#containers{
+    display: inline-block;
+    width: 100%;
+    margin: 0 7.5%;
+}
+
+#ads{
+    text-decoration: none;
+    /* text-align: center; */
+    font-size: 1em;
+}
+
+#containers article{
+    float: left;
+    width: 41%;
+    margin: 20px 10px;
+    border-radius: 2%;
+    border: 1px solid #006699 ;
+    padding: 20px;
+    height: 42vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #f4f8ff;
+    font-size: 1em;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#games{
+    clear: both;
+}
+
+#television{
+    width: 100%;
+}
+
+#adsVideo{
+    clear: both;
+    border: none;
+    text-align: center;
+    width: 900px;
+    height: 650px;
+    font-size: 1em;
+    box-shadow: none;
+}
+
+#containers #adsVideo{
+    height: 700px;
+    width: 920px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+}
+
+iframe{
+    width: 99%;
+    height: 74%;
+    position: relative;
+    top: -548px;
+}
+
+#poll {
+    clear: both;
+    padding-left: 25%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#poll article {
+    width: 50%;
+    height: 45vh;
+    background-color: #f4f8ff;
+    margin: 10px;
+}
+
+.titlee p {
+    color: black;
+    padding: 1vh;
+}
+
+#poll h6 {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 2vh;
+}
+.titlee {
+    background-color: #9bbeff;
+    border-bottom: 1px solid white;
+    height: 5vh;
+    margin-top: -2vh;
+    border-radius: 10px;
+}
+
+#poll > article > form > label {
+    padding-left: 10px;
+    color: black;
+    font-size: 0.7em;
+}
+
+#poll > article > form > input {
+    margin-left: 30px;
+
+}
+
+#vote-button {
+    display: block;
+    float: center;
+    margin: 0px auto;
+    width: 15vh;
+    height: 5vh;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #006699;
+    box-shadow: 0px 3px 3px grey;
+    color: black;
+} 
+
+#vote-button:hover{
+    float: center;
+    margin: 0px auto;
+    width: 14vh;
+    height: 4.5vh;
+    background-color: #e7edf7;
+    border-radius: 20px;
+    border-color: #006699;
+    box-shadow: 0px 3px 3px grey;
+    cursor: pointer;
+} 
+
+footer .button{
+    margin-left: 19%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+@media screen and (max-width: 1200px){
+    #banner1{
+        display: none;
+    }
+    body{
+        font-size: 0.7em;
+    }
+    #wrapper {
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 0.7em;
+    }
+    #containers > article {
+        clear: both;
+        width: 100%;
+        margin: 0;
+        margin-top: 2vh;
+    }
+    #containers {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #one nav{
+        font-size: 0.4em;
+        height: 20px;
+        margin: auto;
+    }
+    #wellcome{
+       display: none;
+    }
+    #adsVideo{
+       display: none;
+    }
+    #logo{
+        width: 90%;
+        height: 21vh;
+        max-width: 350px;
+    }
+    #poll {
+         width: 100%;
+         padding: 0;
+    }
+    #poll > article {
+         width: 100%;
+         margin: 0;
+         margin-top: 5vh;
+    }
+    footer > .button {
+        margin: 0;
+    }
+    button{
+        width: 10vh;
+        height: 3vh;
+    }
+}

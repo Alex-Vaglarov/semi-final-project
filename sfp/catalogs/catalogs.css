@@ -1,0 +1,182 @@
+.rowStyle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cover {
+    width: 20%;
+    height: 20vh;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.cover:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+h4{
+    font-weight: bold;
+    margin-top: 21vh;
+    color: rgb(1,160,226);
+}
+
+h2 {
+    font-weight: bold;
+    color: #01a0e2;
+}
+
+#second-row, #cat-container {
+    margin-top: 8vh;
+}
+
+#second-row {
+    margin-bottom: 10vh;
+}
+
+.design {
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 7px 3px 49px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 3px 49px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 3px 49px -4px rgba(0,0,0,0.75);
+    /* overflow: hidden; */
+}
+
+#first {
+    background-image: url('../imgs/catalogs/moviesCover.jpg')
+}
+#second {
+    background-image: url('../imgs/catalogs/gamesCover.jpg')
+}
+#third {
+    background-image: url('../imgs/catalogs/seriesCover.jpg')
+}
+#fourth {
+    background-image: url('../imgs/catalogs/musicCover.jpg')
+}
+#fifth {
+    background-image: url('../imgs/catalogs/animeCover.jpg')
+}
+#sixth {
+    background-image: url('../imgs/catalogs/xxxCover.jpg')
+}
+
+
+#list > li {
+    width: 70%;
+    height: 23vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-top: 10px;
+    border-bottom: 1px solid skyblue;
+}
+
+.immage > img{
+    max-width: 120px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#seemore{
+    position: relative;
+    left: 5vh;
+    width: 15vh;
+    height: 5vh;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #006699;
+    box-shadow: 0px 3px 3px grey;
+}
+
+#seemore:hover{
+    margin-right: 0.5vh;
+    margin-bottom: 0.5vh;
+    height: 4.5vh;
+    background-color: #e7edf7;
+    border-radius: 20px;
+    border-color: #006699;
+    box-shadow: 0px 3px 3px grey;
+    cursor: pointer;
+}
+
+#titleOfTorrent > h1, p{
+    text-align: center;
+}
+
+
+#torrent-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 3vh auto;
+
+}
+
+#torrent-container > img {
+    min-width: 20vw;
+    max-width: 25vw;
+    height: 35vw;
+    border-radius: 5%;
+    margin-right: 2vw;
+    
+}
+
+.center-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.left{
+    font-size: 0.9em;
+    text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#torrent-info > span{
+    font-weight: 600;
+}
+
+#desc{
+    height: 18vw;
+    overflow: auto;
+
+}
+
+#torrent-info ~ p {
+    margin-left: 5vh;
+}
+
+#buttons > button {
+    float: right;
+    margin-top: 5vh;
+    width: 15vh;
+    height: 5vh;
+    background-color: white;
+    border-radius: 20px;
+    border-color: #006699;
+    box-shadow: 0px 3px 3px grey;
+} 
+
+#buttons > button:hover{
+    float: right;
+    margin-top: 5vh;
+    margin-right: 0.5vh;
+    margin-bottom: 0.5vh;
+    width: 14vh;
+    height: 4.5vh;
+    background-color: #e7edf7;
+    border-radius: 20px;
+    border-color: #006699;
+    box-shadow: 0px 3px 3px grey;
+    cursor: pointer;
+} 
+
+
+
+#buttons > p {
+    text-align: center;
+}

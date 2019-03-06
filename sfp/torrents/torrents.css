@@ -1,0 +1,67 @@
+main{
+    width: 80%;
+    margin: 3% auto;
+}
+
+form{
+    padding-left: 10%;
+    display: inline;
+    margin-left: 10px; 
+}
+
+select {
+    width: 20%;
+    height: 5vh;
+    padding: 0px 20px;
+    border-color: #01a0e2;
+    border-radius: 10px;
+    background-color: #e7edf7;
+  }
+
+select:focus{
+    direction: unset;
+}
+
+.torrentInList{
+    width: 80%;
+    height: 16vh;
+    list-style-type: none;
+    border-radius: 20px;
+    border: 1px solid skyblue;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.torrentInList > div{
+    width: 15vh;
+}
+
+.torrentInList img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.torrentInList img:hover{
+    padding-top: 3px;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+#det:hover{
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 1px 1px grey;
+}
+
+.specif{
+    font-size: 0.8em;
+    font-style: italic;
+}
